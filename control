@@ -1,0 +1,9 @@
+Package: buffermet.tweak.disabledevicelock
+Name: DisableDeviceLock
+Depends: mobilesubstrate
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: This tweak prevents the device from locking until disabled in settings.
+Maintainer: Yarwin Kolff (buffermet)
+Author: Yarwin Kolff (buffermet)
+Section: Tweaks

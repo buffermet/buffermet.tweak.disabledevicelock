@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+       <dict>
+          <key>cell</key>
+          <string>PSGroupCell</string>
+          <key>label</key>
+          <string>⚠️ WARNING
+
+Damage can occur to this device's screen if left on for long periods of time. You are responsible for any damage that may occur.</string>
+       </dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>ENABLE TWEAK</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+          <string>buffermet.tweak.disabledevicelockpreferences</string>
+			<key>PostNotification</key>
+			<string>buffermet.tweak.disabledevicelock/prefchange</string>
+			<key>key</key>
+			<string>isEnabled</string>
+			<key>label</key>
+			<string>Disable Device Lock</string>
+		</dict>
+      <dict>
+        <key>cell</key>
+        <string>PSGroupCell</string>
+        <key>label</key>
+        <string>DEVELOPER</string>
+      </dict>
+      <dict>
+        <key>cell</key>
+        <string>PSButtonCell</string>
+        <key>action</key>
+        <string>openTwitterBuffermet</string>
+        <key>label</key>
+        <string>Yarwin Kolff (buffermet)</string>
+        <key>icon</key>
+        <string>dev_assets/twitter.png</string>
+      </dict>
+      <dict>
+        <key>cell</key>
+        <string>PSButtonCell</string>
+        <key>action</key>
+        <string>openSourceGitHub</string>
+        <key>label</key>
+        <string>Source Code</string>
+        <key>icon</key>
+        <string>dev_assets/github.png</string>
+      </dict>
+      <dict>
+        <key>cell</key>
+        <string>PSGroupCell</string>
+        <key>label</key>
+        <string>Thank You</string>
+      </dict>
+      <dict>
+        <key>cell</key>
+        <string>PSButtonCell</string>
+        <key>action</key>
+        <string>openDonateCoinbase</string>
+        <key>label</key>
+        <string>Donate With Coinbase</string>
+        <key>icon</key>
+        <string>donate_assets/coinbase.png</string>
+      </dict>
+      <dict>
+        <key>cell</key>
+        <string>PSButtonCell</string>
+        <key>action</key>
+        <string>openDonatePayPal</string>
+        <key>label</key>
+        <string>Donate With PayPal</string>
+        <key>icon</key>
+        <string>donate_assets/paypal.png</string>
+      </dict>
+	</array>
+	<key>title</key>
+	<string>DisableDeviceLock</string>
+</dict>
+</plist>
